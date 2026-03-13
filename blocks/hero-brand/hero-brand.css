@@ -1,0 +1,47 @@
+.hero-brand-container .hero-brand-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-brand {
+  position: relative;
+  padding: 40px 24px;
+  min-height: 300px;
+}
+
+.hero-brand h1,
+.hero-brand h2,
+.hero-brand h3,
+.hero-brand h4,
+.hero-brand h5,
+.hero-brand h6,
+.hero-brand p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--background-color);
+}
+
+.hero-brand.no-image * {
+  color: var(--text-color);
+}
+
+.hero-brand picture {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.hero-brand img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width >= 900px) {
+  .hero-brand {
+    padding: 40px 32px;
+  }
+}

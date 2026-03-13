@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-support",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-13T19:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tires.bridgestone.com/",
+    "originPage": "Bridgestone Tires homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "support-links",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "eyebrow + heading + description + CTA buttons",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["support/help sections", "no-image cards with CTAs", "service category cards"],
+    "notSuitableFor": ["image-heavy cards", "promotional content"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-13T19:46:00.000Z"
+  }
+}

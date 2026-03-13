@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-promo",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-13T19:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tires.bridgestone.com/",
+    "originPage": "Bridgestone Tires homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "promotional-offers",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "banner header + image + heading hierarchy + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["promotional offer cards", "sale/discount sections", "time-limited offers"],
+    "notSuitableFor": ["editorial content", "navigation cards"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-13T19:46:00.000Z"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-brand",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-13T19:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tires.bridgestone.com/",
+    "originPage": "Bridgestone Tires homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "brand-hero",
+    "imagePattern": "background-image"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "brand landing pages",
+      "homepage hero sections",
+      "pages with full-width background images"
+    ],
+    "notSuitableFor": [
+      "text-only hero sections",
+      "minimal content pages"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-13T19:46:00.000Z"
+  }
+}

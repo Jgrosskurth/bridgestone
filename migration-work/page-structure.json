@@ -1,0 +1,145 @@
+{
+  "url": "https://tires.bridgestone.com/",
+  "sections": [
+    {
+      "id": "section-1",
+      "name": "Hero",
+      "style": null,
+      "selector": ".hero.aem-GridColumn",
+      "sequences": [
+        {
+          "id": "seq-1-1",
+          "description": "Large H1 heading 'Tailored for the Road Ahead', paragraph describing Bridgestone tire solutions, two CTA buttons ('Start Tire Search', 'Find a Dealer Nearby'), with a full-width background tire/road image"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "name": "Subnav",
+      "style": null,
+      "selector": ".subnav.aem-GridColumn",
+      "sequences": [
+        {
+          "id": "seq-2-1",
+          "description": "Horizontal tab-style navigation bar with 5 links: Start Tire Decision Guide, Tire Search, Offers, Support, Bridgestone Motorcycle"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "name": "Tire Categories",
+      "style": null,
+      "selector": "bsx-section#auto",
+      "sequences": [
+        {
+          "id": "seq-3-1",
+          "description": "Two side-by-side category cards — 'Automotive Tires' and 'Motorcycle Tires'. Each has a large image, H5 heading, description paragraph, and two action link buttons"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "name": "Tire Decision Guide",
+      "style": null,
+      "selector": "bsx-section#guide",
+      "sequences": [
+        {
+          "id": "seq-4-1",
+          "description": "Left-aligned content card with a large image on the right, H4 heading 'Automotive Tire Recommendations, with Tire Decision Guide', description text with bold emphasis, red CTA button 'Start Tire Guide', and a checklist item with icon"
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "name": "Welcome to Bridgestone (Bento)",
+      "style": null,
+      "selector": "bsx-section#why",
+      "sequences": [
+        {
+          "id": "seq-5-1",
+          "description": "H4 heading 'Welcome to Bridgestone'"
+        },
+        {
+          "id": "seq-5-2",
+          "description": "Bento grid layout with 6 cells: (1) large card with text overlay 'Dealers Near You' + description + 'Find a Dealer' link, paired with an image; (2) landscape image of road; (3) image of highway between forest and sea; (4) card 'Quality Products' with description + 'Learn More About Us' link; (5) card 'Bridgestone E8 Commitment' with description + 'See Sustainability Values' link, paired with small image"
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "name": "Tire Offers and Promotions",
+      "style": null,
+      "selector": "bsx-section#offers",
+      "sequences": [
+        {
+          "id": "seq-6-1",
+          "description": "Section header row with H3 heading 'Tire Offers and Promotions' on the left, 'More Special Offers' link on the right, followed by a horizontal separator line"
+        },
+        {
+          "id": "seq-6-2",
+          "description": "Three promotional offer cards in a row: (1) Spring Motorcycle Promo - 'Get up to $70' banner, motorcycle image, promo dates, details, 'See offer details' link; (2) March Auto Promo - 'Get up to $180' banner, tire image, dates March 1-31 2026, details about $80+$100 CFNA, 'See offer details' link; (3) CFNA Financing - 'Financing Available Through CFNA' banner, card image, description about promotional financing, 'See Financing' and 'Apply Now' links"
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "name": "What Really Matters",
+      "style": "dark",
+      "selector": "bsx-section#moto ~ .cmp-section bsx-section#wrm, section:has(bsx-section) + section:has(.content-card)",
+      "sequences": [
+        {
+          "id": "seq-7-1",
+          "description": "Side-by-side layout: left side has a large sustainability-themed image, right side has H4 heading 'What Really Matters', H6 subheading 'Sustainable Solutions for Future Generations', paragraph about Bridgestone E8 Commitment, and two red CTA buttons ('Mission and Values', 'Sustainable Solutions')"
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "name": "What's New",
+      "style": null,
+      "selector": "bsx-section#resource",
+      "sequences": [
+        {
+          "id": "seq-8-1",
+          "description": "Section header row with H3 heading 'What's New' on the left, 'Frequently Asked Questions' link on the right, followed by horizontal separator"
+        },
+        {
+          "id": "seq-8-2",
+          "description": "Three article/blog cards in a row, each is a full-card link: (1) 'Summer Tires vs. All Season Tires' - image, H6 heading, 'Automotive' category tag, '10 Min Read | Shopping for Tires', description; (2) 'Run Flat Tires: How They Work' - similar structure with 'Tire Technology' tag; (3) 'Motorcycle Tire Maintenance' - 'Motorcycle' category, 'Tire Maintenance' tag"
+        },
+        {
+          "id": "seq-8-3",
+          "description": "Centered row with 'Learn: Automotive' button link on left, H6 text 'Discover why your journey is our passion.' in center, 'Learn: Motorcycle' button link on right"
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "name": "Support Cards",
+      "style": null,
+      "selector": "section:has(bsx-section#resource) ~ section bsx-grid:has(.card)",
+      "sequences": [
+        {
+          "id": "seq-9-1",
+          "description": "Two side-by-side support cards: (1) 'Find the Essentials / Automotive Support' with H6 eyebrow, H5 heading, description paragraph, red 'Get Started' link; (2) 'Keep Your Edge / Motorcycle Support' with same structure plus two links ('Get Started', 'Tire Data Book' with external icon)"
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "name": "Contact Us",
+      "style": null,
+      "selector": "bsx-section#about",
+      "sequences": [
+        {
+          "id": "seq-10-1",
+          "description": "Centered section with small icon/badge at top, H5 heading 'Have a Question? Contact Us!', paragraph with text about experts and link to find dealer, paragraph with toll-free phone number 1(816)398-6949, red CTA button 'Contact Bridgestone Service Center'"
+        }
+      ]
+    }
+  ],
+  "blockInventory": {
+    "local": ["hero", "cards", "columns", "footer", "fragment", "header"],
+    "blockCollection": ["carousel", "tabs", "accordion"]
+  }
+}

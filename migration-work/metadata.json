@@ -1,0 +1,67 @@
+{
+  "url": "https://tires.bridgestone.com/",
+  "timestamp": "2026-03-13T19:39:53.614Z",
+  "paths": {
+    "documentPath": "/index",
+    "htmlFilePath": "/index.plain.html",
+    "mdFilePath": "/index.md",
+    "dirPath": "",
+    "filename": "index"
+  },
+  "screenshot": "migration-work/screenshot.png",
+  "html": {
+    "filePath": "migration-work/cleaned.html",
+    "size": 61930
+  },
+  "metadata": {
+    "title": "Bridgestone Tires for Cars, SUVs, Trucks, Minivans, & Motorcycles | Bridgestone Tires",
+    "description": "Bridgestone & Firestone Commercial offers the best commercial tire products and solutions including truck, bus and off the road tires. Find a dealer near you today.",
+    "template": "consumer-content-page-template",
+    "viewport": "width=device-width, initial-scale=1",
+    "content-page-ref": "ovnR7Vdh4Q-ODglL5i5BsarPUm8SMXuVm4vx1s-xy8q4M7zDI-R4MwN3fy4luAQ1F3EW6rXSZdshqq17jOBSfQ",
+    "og:title": "Bridgestone Tires for Cars, SUVs, Trucks, Minivans, & Motorcycles | Bridgestone Tires",
+    "og:description": "Bridgestone & Firestone Commercial offers the best commercial tire products and solutions including truck, bus and off the road tires. Find a dealer near you today.",
+    "og:image": "https://s7d1.scene7.com/is/image/bridgestone/bridgestone-commercial-what-really-matters",
+    "canonical": "https://tires.bridgestone.com/en-us/index"
+  },
+  "images": {
+    "count": 27,
+    "mapping": {
+      "https://s7d1.scene7.com/is/image/bridgestone/moto-AX41S-blog_1280x525": "./images/0fd32d386d99cac71f228724803961ed.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-personal-homepage-hero-1500-v2": "./images/ec0ebcd495a5203e6ada7d3ad9d90e42.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bridgestone-consumer-alenza-prestige-homepage": "./images/42994f0096cb4546e574985f3f2f7227.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/sustainability-3-desk-images-na-bst-web-consumer-v1": "./images/f80bca3ed03ca43adbfc9659f2f11007.jpg",
+      "https://tires.bridgestone.com/content/dam/dcoe/commercial/global/fleet-care-emea/card-tyres-fleet-convenience.jpg": "./images/ed2a73fa5f38b06761016f304c9df9b6.png",
+      "https://s7d1.scene7.com/is/image/bridgestone/support-page-thumbnail-na-bst-web-consumer": "./images/54e0d143c187f3b93214fe56d0b29be4.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-automotive-cc-1500": "./images/283e37c9f5a2724293057c9e54e8186a.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-motorcycle-card-1500": "./images/51df849f7b9da4eb77721a44d750d80f.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-homepage-retailer-bento": "./images/5def2e82fd3f0148eb8cf18a5bbce0fc.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/background-highway-road-between-forest-and-sea": "./images/8263a69336b2c7b3dc094d5a6fa6beef.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-homepage-bento-dueler-lifestyle-1500": "./images/ca5a90d67ae0cbffbe2deee86fecaab6.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bento4": "./images/6490f909d39929a77594a0843f75b920.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/spring-us-motorcycle-promo": "./images/231615242c01ea98fc256372a0c2294a.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/2026-march-promo": "./images/57701b5767afeba52cd31760dcda07fb.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bridgestone-consumer-homepage-card-offers-promotions?fmt=webp": "./images/209adc36d48ad1a80fd6180937720889.png",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-homepage-learn-summer-vs-as-1500": "./images/94e400f8bbfb051a725349985be6e748.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/bst-learn-runflat-1500": "./images/c78782827e9f9c22dd50dcb5417e8b00.jpg",
+      "https://s7d1.scene7.com/is/image/bridgestone/hero-202506-motorcycle-learn-desktop-homepage-global-consumer": "./images/3cf368bde857b0abc33726cc5abfb93a.jpg",
+      "https://arttrk.com/pixel/?ad_log=referer&action=content&pixid=fbed4ba1-25e0-42be-9344-40aa5f173ae0": "./images/977a4320762f5dfa78b14df6e2493ec0.png",
+      "https://conv-tm.everesttech.net/stats/1/conv?cpk=Bavy6TGj2ikd6GJl2eTD&cak=6KlH5dHYiahifo4fSSWO": "./images/de9d7aa5b7efd7bb505088d294f70fd5.png",
+      "https://alb.reddit.com/rp.gif?ts=1773430783846&id=t2_4p7rptowg&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=bc276065-2e72-4caa-810d-17b248e8e738&aaid=&em=&pn=&external_id=&idfa=&integration=reddit&partner=&partner_version=&opt_out=0&sh=1280&sw=720&v=rdt_79aa2193&dpm=&dpcc=&dprc=": "./images/2043962bf562e7bc43ff3fc8892e7759.png",
+      "https://conv-tm.everesttech.net/stats/1/conv?cpk=VG09ZVplRot3RPcatCdf&cak=6KlH5dHYiahifo4fSSWO": "./images/8a8d9445c01112ff86796f31a4c2c6ec.png",
+      "https://adservice.google.com/ddm/fls/z/dc_pre=CMm0p7_QnZMDFbMxiAkdfT494A;src=12643332;type=bridg00;cat=bridg002;npa=0;auiddc=*;uaa=x86;uab=64;uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe63b1v9137345562za200xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=103116026~103200004~115616986~115938466~115938469~116024733~117484252;epver=2;dc_random=1773430783_Tgh8QQdoP96ZCGiuW72XXB7gLBoV3l2cLw;_dc_test=1;~oref=https%3A%2F%2Ftires.bridgestone.com%2Fen-us%2Findex": "./images/413f475191ed9b7f372065743b3d212b.png",
+      "https://cnv.event.prod.bidr.io/log/cnv?tag_id=257&buzz_key=ozone&value=&segment_key=ozone-4607&account_id=2&order=%5BORDER%5D&ord=%5BCACHEBUSTER%5D&_bee_ppp=1": "./images/d020da6986209ae8b6a2916e6f02460e.png",
+      "https://elb.the-ozone-project.com/dp.gif?pixelId=261&pixelName=Bridgestone_Sitewide_InsightsPixel&aDomain=tires.bridgestone.com&internalAdvId=780&page_url=https%3A%2F%2Ftires.bridgestone.com%2Fen-us%2Findex&pageTitle=Bridgestone%20Tires%20for%20Cars%2C%20SUVs%2C%20Trucks%2C%20Minivans%2C%20%26%20Motorcycles%20%7C%20Bridgestone%20Tires&var2=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F145.0.7632.6%20Safari%2F537.36&var3=https%3A%2F%2Ftires.bridgestone.com%2Fen-us%2Findex": "./images/ec6c7945152f4d380c25b33de9bebde4.png",
+      "https://tires.bridgestone.com/content/dam/dcoe/commercial/global/fleet-care-emea/how-to-implement-blog-fleet-care.jpg": "./images/542db8ff97a029f72cfd0e8422d92e69.png",
+      "https://s7d1.scene7.com/is/image/bridgestone/emea-delegation-icon": "./images/a3185b68ef970cfbc1cd23944b27ce4a.jpg"
+    },
+    "stats": {
+      "total": 29,
+      "converted": 8,
+      "skipped": 19,
+      "failed": 2,
+      "tooLarge": 0,
+      "limitReached": 0
+    }
+  }
+}

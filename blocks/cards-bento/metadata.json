@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-bento",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-13T19:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tires.bridgestone.com/",
+    "originPage": "Bridgestone Tires homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "bento-grid",
+    "imagePattern": "mixed"
+  },
+  "contentPattern": {
+    "structure": "mixed cards with images, text overlays, and CTAs in bento grid",
+    "buttonCount": 3,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": ["bento grid layouts", "welcome/about sections", "mixed content showcase"],
+    "notSuitableFor": ["uniform card grids", "single-column layouts"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-13T19:46:00.000Z"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://tires.bridgestone.com/"],
+      "description": "Bridgestone Tires homepage with hero, product categories, promotions, and brand content",
+      "blocks": [
+        {
+          "name": "hero-brand",
+          "instances": ["div.hero.aem-GridColumn"]
+        },
+        {
+          "name": "cards-category",
+          "instances": ["bsx-section#auto .column"]
+        },
+        {
+          "name": "columns-feature",
+          "instances": ["bsx-section#guide .content-card"]
+        },
+        {
+          "name": "cards-bento",
+          "instances": ["bsx-section#why .bento-box"]
+        },
+        {
+          "name": "cards-promo",
+          "instances": ["bsx-section#offers .column:has(.card)"]
+        },
+        {
+          "name": "columns-showcase",
+          "instances": ["bsx-section#wrm .content-card"]
+        },
+        {
+          "name": "cards-article",
+          "instances": ["bsx-section#resource:has(.separator) .column:has(.card)"]
+        },
+        {
+          "name": "cards-support",
+          "instances": ["section:has(bsx-section#resource) ~ section bsx-grid:has(.card)"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero",
+          "selector": "div.hero.aem-GridColumn",
+          "style": null,
+          "blocks": ["hero-brand"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-subnav",
+          "name": "Subnav",
+          "selector": "div.subnav.aem-GridColumn",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["bsx-subnav a"]
+        },
+        {
+          "id": "section-categories",
+          "name": "Tire Categories",
+          "selector": "section:has(bsx-section#auto)",
+          "style": null,
+          "blocks": ["cards-category"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-guide",
+          "name": "Tire Decision Guide",
+          "selector": "section:has(bsx-section#guide)",
+          "style": null,
+          "blocks": ["columns-feature"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-welcome",
+          "name": "Welcome to Bridgestone",
+          "selector": "section:has(bsx-section#why)",
+          "style": null,
+          "blocks": ["cards-bento"],
+          "defaultContent": ["#title-eb9241a6ce"]
+        },
+        {
+          "id": "section-offers",
+          "name": "Tire Offers and Promotions",
+          "selector": "section:has(bsx-section#offers)",
+          "style": null,
+          "blocks": ["cards-promo"],
+          "defaultContent": ["#title-558866290d", "bsx-section#offers .separator"]
+        },
+        {
+          "id": "section-wrm",
+          "name": "What Really Matters",
+          "selector": "section:has(bsx-section#wrm)",
+          "style": null,
+          "blocks": ["columns-showcase"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-whats-new",
+          "name": "Whats New",
+          "selector": "section:has(bsx-section#resource)",
+          "style": null,
+          "blocks": ["cards-article"],
+          "defaultContent": ["#title-ecf2f7fd84", "bsx-section#resource .separator"]
+        },
+        {
+          "id": "section-support",
+          "name": "Support Cards",
+          "selector": ["section:has(bsx-section#resource) ~ section:has(.card)", "section:nth-of-type(8)"],
+          "style": null,
+          "blocks": ["cards-support"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-contact",
+          "name": "Contact Us",
+          "selector": "section:has(bsx-section#about)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["#title-7588a694d7", "bsx-section#about .typography"]
+        }
+      ]
+    }
+  ]
+}

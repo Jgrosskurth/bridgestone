@@ -6,12 +6,12 @@
 
 ## Steps
 - [x] 0. Initialize Migration Plan
-- [ ] 1. Project Setup
-- [ ] 2. Site Analysis
-- [ ] 3. Page Analysis
-- [ ] 4. Block Mapping
-- [ ] 5. Import Infrastructure
-- [ ] 6. URL Classification and Content Import
+- [x] 1. Project Setup
+- [x] 2. Site Analysis
+- [x] 3. Page Analysis
+- [x] 4. Block Mapping
+- [x] 5. Import Infrastructure
+- [x] 6. URL Classification and Content Import
 
 ## Artifacts
 - `.migration/project.json` - Project configuration

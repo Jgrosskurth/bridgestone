@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://tires.bridgestone.com/",
+  "path": "index",
+  "timestamp": "2026-03-13T20:30:04.895Z",
+  "title": "Bridgestone Tires for Cars, SUVs, Trucks, Minivans, & Motorcycles | Bridgestone Tires",
+  "template": "homepage",
+  "blocks": [
+    "hero-brand",
+    "cards-category",
+    "columns-feature",
+    "cards-bento",
+    "cards-promo",
+    "columns-showcase",
+    "cards-article",
+    "cards-support"
+  ]
+}

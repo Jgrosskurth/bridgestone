@@ -1,0 +1,217 @@
+{
+  "url": "https://tires.bridgestone.com/",
+  "sections": [
+    {
+      "id": "section-1",
+      "name": "Hero",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-1-1",
+          "description": "Large H1 heading 'Tailored for the Road Ahead', paragraph about Bridgestone tire solutions, two CTA buttons (Start Tire Search, Find a Dealer Nearby), with full-width background tire/road image",
+          "decision": "block",
+          "blockName": "hero-brand",
+          "blockVariant": "hero-brand",
+          "reason": "Classic hero pattern with background image, heading, text, and CTA buttons. Obvious match with hero block."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "name": "Subnav",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-2-1",
+          "description": "Horizontal tab-style navigation bar with 5 links: Start Tire Decision Guide, Tire Search, Offers, Support, Bridgestone Motorcycle",
+          "decision": "default",
+          "blockName": null,
+          "reason": "Secondary navigation links that can be authored as default content. Simple row of anchor links."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "name": "Tire Categories",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-3-1",
+          "description": "Two side-by-side category cards — Automotive Tires and Motorcycle Tires — each with large image, H5 heading, description paragraph, and two action link buttons",
+          "decision": "block",
+          "blockName": "cards-category",
+          "blockVariant": "cards-category",
+          "reason": "Two structured items with images and text in a grid. Repeating pattern with consistent structure. Obvious cards match."
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "name": "Tire Decision Guide",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-4-1",
+          "description": "Side-by-side layout: left has H4 heading 'Automotive Tire Recommendations, with Tire Decision Guide', description with bold text, red CTA button 'Start Tire Guide', checklist item; right has large product image",
+          "decision": "block",
+          "blockName": "columns-feature",
+          "blockVariant": "columns-feature",
+          "reason": "Side-by-side layout with text content on one side and image on the other. Obvious columns match."
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "name": "Welcome to Bridgestone (Bento)",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-5-1",
+          "description": "H4 heading 'Welcome to Bridgestone'",
+          "decision": "default",
+          "blockName": null,
+          "reason": "Just a section heading. Author types it."
+        },
+        {
+          "id": "seq-5-2",
+          "description": "Bento grid layout with 6 cells: large card with 'Dealers Near You' text overlay + image, landscape road image, highway image, 'Quality Products' card with CTA, 'Bridgestone E8 Commitment' card with CTA + image",
+          "decision": "block",
+          "blockName": "cards-bento",
+          "blockVariant": "cards-bento",
+          "reason": "Multiple structured items with images and text in a grid layout. Best represented as cards block with custom bento-style variant."
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "name": "Tire Offers and Promotions",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-6-1",
+          "description": "Section header: H3 heading 'Tire Offers and Promotions' on left, 'More Special Offers' link on right, followed by horizontal separator",
+          "decision": "default",
+          "blockName": null,
+          "reason": "Heading, link, and horizontal rule can be authored as default content."
+        },
+        {
+          "id": "seq-6-2",
+          "description": "Three promotional offer cards: (1) Spring Motorcycle promo $70 back with image, dates, details, CTA; (2) March Auto promo $180 back with image, dates, details, CTA; (3) CFNA Financing card with image, description, two CTAs",
+          "decision": "block",
+          "blockName": "cards-promo",
+          "blockVariant": "cards-promo",
+          "reason": "Three structured promotional items with images, headings, descriptions, CTAs. Repeating card pattern."
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "name": "What Really Matters",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-7-1",
+          "description": "Side-by-side layout: left has large sustainability image, right has H4 'What Really Matters', H6 'Sustainable Solutions for Future Generations', paragraph about E8 Commitment, two red CTA buttons (Mission and Values, Sustainable Solutions)",
+          "decision": "block",
+          "blockName": "columns-showcase",
+          "blockVariant": "columns-showcase",
+          "reason": "Side-by-side layout with image on one side and text+CTAs on the other. Obvious columns match."
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "name": "What's New",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-8-1",
+          "description": "Section header: H3 heading 'What's New' on left, 'Frequently Asked Questions' link on right, followed by horizontal separator",
+          "decision": "default",
+          "blockName": null,
+          "reason": "Heading, link, and horizontal rule can be authored as default content."
+        },
+        {
+          "id": "seq-8-2",
+          "description": "Three article/blog cards: (1) 'Summer Tires vs. All Season Tires' with image, category, read time, description; (2) 'Run Flat Tires: How They Work' same structure; (3) 'Motorcycle Tire Maintenance' same structure",
+          "decision": "block",
+          "blockName": "cards-article",
+          "blockVariant": "cards-article",
+          "reason": "Three structured article items with images, headings, category tags, descriptions. Classic cards pattern."
+        },
+        {
+          "id": "seq-8-3",
+          "description": "Centered row: 'Learn: Automotive' button link on left, H6 text 'Discover why your journey is our passion.' in center, 'Learn: Motorcycle' button link on right",
+          "decision": "default",
+          "blockName": null,
+          "reason": "Links and centered text. Author can type these as default content with centered alignment."
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "name": "Support Cards",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-9-1",
+          "description": "Two side-by-side support cards: (1) 'Find the Essentials / Automotive Support' with eyebrow, heading, description, red CTA; (2) 'Keep Your Edge / Motorcycle Support' with same structure plus two CTAs",
+          "decision": "block",
+          "blockName": "cards-support",
+          "blockVariant": "cards-support",
+          "reason": "Two structured items with consistent pattern (eyebrow, heading, description, CTAs). Cards pattern."
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "name": "Contact Us",
+      "style": null,
+      "sectionMetadata": false,
+      "sequences": [
+        {
+          "id": "seq-10-1",
+          "description": "Centered section with small icon/badge at top, H5 'Have a Question? Contact Us!', paragraph about experts + dealer link, paragraph with toll-free phone number, red CTA button 'Contact Bridgestone Service Center'",
+          "decision": "default",
+          "blockName": null,
+          "reason": "Centered text content with heading, paragraphs, links, and CTA button. Author can type all of this normally."
+        }
+      ]
+    }
+  ],
+  "variantMapping": {
+    "hero": "hero-brand",
+    "cards-category": "cards-category",
+    "columns-feature": "columns-feature",
+    "cards-bento": "cards-bento",
+    "cards-promo": "cards-promo",
+    "columns-showcase": "columns-showcase",
+    "cards-article": "cards-article",
+    "cards-support": "cards-support"
+  },
+  "blockSummary": {
+    "hero-brand": 1,
+    "cards-category": 1,
+    "cards-bento": 1,
+    "cards-promo": 1,
+    "cards-article": 1,
+    "cards-support": 1,
+    "columns-feature": 1,
+    "columns-showcase": 1,
+    "defaultContent": 6
+  },
+  "blockStructures": {
+    "hero": "Row 1: background image. Row 2: heading, subheading, paragraph, CTA links",
+    "cards": "Each row = one card. Col 1: image. Col 2: heading, description, CTA link",
+    "columns": "Each row = set of side-by-side cells. Each cell can contain text, images, or inline elements"
+  }
+}

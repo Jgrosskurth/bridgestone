@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-showcase",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-13T19:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tires.bridgestone.com/",
+    "originPage": "Bridgestone Tires homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "sustainability-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | heading + subheading + paragraph + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mission/values showcase sections",
+      "sustainability or CSR content",
+      "image + text with dark theme"
+    ],
+    "notSuitableFor": [
+      "light minimal layouts",
+      "product feature highlights"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-13T19:46:00.000Z"
+  }
+}
