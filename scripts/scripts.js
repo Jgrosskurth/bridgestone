@@ -125,11 +125,13 @@ function buildAutoBlocks(main) {
     buildHeroBlock(main);
 
     // auto-style "Contact Us" section
-    const contactHeading = [...main.querySelectorAll('.default-content-wrapper > p')].find(
+    // Note: runs before decorateSections, so no .section or .default-content-wrapper yet.
+    // Paragraphs are direct children of section <div>s which are direct children of <main>.
+    const contactHeading = [...main.querySelectorAll(':scope > div > p')].find(
       (p) => p.textContent.trim() === 'Have a Question? Contact Us!',
     );
     if (contactHeading) {
-      const section = contactHeading.closest('.section') || contactHeading.closest('div');
+      const section = contactHeading.parentElement;
       section.classList.add('contact-cta');
 
       // remove tracking-pixel images (1×1 gifs from analytics)
