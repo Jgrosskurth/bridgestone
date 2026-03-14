@@ -387,3 +387,105 @@ main .section.dark a.button.secondary {
   color: var(--color-white);
   border-color: var(--accent-color);
 }
+
+/* ============================================================
+   Tab bar / Quick links (section after hero)
+   ============================================================ */
+main > .section.hero-brand-container + .section {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-grey-border);
+  padding: 0;
+}
+
+main > .section.hero-brand-container + .section > .default-content-wrapper {
+  max-width: var(--section-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+main > .section.hero-brand-container + .section > .default-content-wrapper > p {
+  display: flex;
+  gap: 0;
+  margin: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+main > .section.hero-brand-container + .section > .default-content-wrapper > p::-webkit-scrollbar {
+  display: none;
+}
+
+main > .section.hero-brand-container + .section > .default-content-wrapper > p a {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 20px;
+  font-family: var(--heading-font-family);
+  font-size: var(--body-font-size-s);
+  font-weight: 400;
+  color: var(--color-grey-tab);
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: color var(--transition-base), border-color var(--transition-base);
+}
+
+main > .section.hero-brand-container + .section > .default-content-wrapper > p a:hover {
+  color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+
+/* ============================================================
+   Section headings (Tire Offers, What's New, etc.)
+   ============================================================ */
+/* stylelint-disable no-descending-specificity -- section-specific overrides */
+.cards-promo-container > .default-content-wrapper > p,
+.cards-article-container > .default-content-wrapper > p {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-l);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--text-color);
+}
+
+/* ============================================================
+   Contact section (Have a Question?)
+   ============================================================ */
+main > .section:last-of-type > .default-content-wrapper {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+main > .section:last-of-type > .default-content-wrapper > p:first-child {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-s);
+  font-weight: 400;
+  line-height: 1.33;
+  margin-bottom: 16px;
+}
+
+main > .section:last-of-type > .default-content-wrapper > p {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+main > .section:last-of-type > .default-content-wrapper a[href^="tel:"] {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+main > .section:last-of-type > .default-content-wrapper > p:last-child a.button:any-link {
+  background-color: transparent;
+  border-color: var(--accent-color);
+  color: var(--color-black);
+}
+
+main > .section:last-of-type > .default-content-wrapper > p:last-child a.button:hover {
+  background-color: var(--light-color);
+}
+
+/* stylelint-enable no-descending-specificity */

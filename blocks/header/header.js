@@ -164,8 +164,24 @@ export default async function decorate(block) {
   toggleMenu(nav, navSections, isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
 
+  // utility bar — above main nav (desktop only)
+  const utilityBar = document.createElement('div');
+  utilityBar.className = 'nav-utility';
+  utilityBar.innerHTML = `<div class="nav-utility-inner">
+    <div class="nav-utility-left">
+      <a href="/" class="nav-utility-active">Personal</a>
+      <a href="https://commercial.bridgestone.com/en-us/index">Commercial</a>
+    </div>
+    <div class="nav-utility-right">
+      <a href="/content/index">Customer Support</a>
+      <a href="/content/index">Special Offers</a>
+      <a href="/content/index">Tire Decision Guide</a>
+    </div>
+  </div>`;
+
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
+  navWrapper.append(utilityBar);
   navWrapper.append(nav);
   block.append(navWrapper);
 }
