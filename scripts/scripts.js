@@ -123,6 +123,32 @@ function buildAutoBlocks(main) {
     }
 
     buildHeroBlock(main);
+
+    // auto-style "Contact Us" section
+    const contactHeading = [...main.querySelectorAll('.default-content-wrapper > p')].find(
+      (p) => p.textContent.trim() === 'Have a Question? Contact Us!',
+    );
+    if (contactHeading) {
+      const section = contactHeading.closest('.section') || contactHeading.closest('div');
+      section.classList.add('contact-cta');
+
+      // remove tracking-pixel images (1×1 gifs from analytics)
+      section.querySelectorAll('img').forEach((img) => {
+        const p = img.closest('p');
+        if (p) p.remove();
+      });
+
+      // add CTA button after phone-number paragraph
+      const phonePara = [...section.querySelectorAll('p')].find(
+        (p) => p.querySelector('a[href^="tel:"]'),
+      );
+      if (phonePara) {
+        const cta = document.createElement('p');
+        cta.className = 'button-wrapper';
+        cta.innerHTML = '<a href="/en-us/support/contact-us" title="Contact Bridgestone Service Center" class="button primary">Contact Bridgestone Service Center</a>';
+        phonePara.after(cta);
+      }
+    }
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
