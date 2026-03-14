@@ -34,8 +34,8 @@ footer .footer .default-content-wrapper ul {
 
 footer .footer .default-content-wrapper ul:last-of-type {
   border-top: none;
-  padding-top: 24px;
-  margin-top: 16px;
+  padding-top: 16px;
+  margin-top: 8px;
 }
 
 /* footer link items — general rule first for specificity */
@@ -105,8 +105,7 @@ footer .footer .default-content-wrapper ul > li a img {
 /* ============================================================
    Copyright bar — bottom of footer
    ============================================================ */
-footer .footer .section:last-child,
-footer .footer > div:last-child {
+footer .footer .section:last-child {
   border-top: 1px solid var(--color-grey-border);
   margin-top: 24px;
   padding-top: 24px;
@@ -193,9 +192,14 @@ footer .footer .section:last-child ul li a:hover {
 
   footer .footer .default-content-wrapper ul:last-of-type {
     grid-column: 1 / -1;
-    padding-top: 32px;
-    margin-top: 24px;
-    border-top: 1px solid var(--color-grey-border);
+    padding-top: 24px;
+    margin-top: 16px;
+  }
+
+  footer .footer .default-content-wrapper ul:last-of-type > li:first-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   footer .footer .section:last-child .default-content-wrapper {
@@ -203,7 +207,7 @@ footer .footer .section:last-child ul li a:hover {
     flex-flow: row wrap;
     align-items: center;
     justify-content: flex-start;
-    gap: 16px;
+    gap: 12px 16px;
   }
 
   footer .footer .section:last-child p {
@@ -211,7 +215,7 @@ footer .footer .section:last-child ul li a:hover {
   }
 
   footer .footer .section:last-child ul {
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-left: auto;
   }
 }

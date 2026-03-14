@@ -24,6 +24,12 @@
   z-index: 0;
 }
 
+.cards-bento .cards-bento-card-image p {
+  margin: 0;
+  height: 100%;
+  line-height: 0;
+}
+
 .cards-bento .cards-bento-card-image img {
   width: 100%;
   height: 100%;
@@ -61,9 +67,13 @@
   margin-bottom: 8px;
 }
 
-/* plain bg cards */
+/* plain bg cards (no image) */
 .cards-bento > ul > li:nth-child(2) {
   background-color: var(--color-grey-light);
+}
+
+.cards-bento > ul > li:nth-child(2) .cards-bento-card-body {
+  justify-content: center;
 }
 
 .cards-bento > ul > li:nth-child(2) .cards-bento-card-body h2 {

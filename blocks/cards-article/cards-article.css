@@ -25,6 +25,11 @@
   line-height: 0;
 }
 
+.cards-article .cards-article-card-image > p {
+  margin: 0;
+  line-height: 0;
+}
+
 .cards-article > ul > li img {
   width: 100%;
   aspect-ratio: 16 / 9;

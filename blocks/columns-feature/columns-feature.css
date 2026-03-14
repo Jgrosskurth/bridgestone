@@ -35,6 +35,11 @@
   color: var(--text-color);
 }
 
+.columns-feature .columns-feature-img-col p {
+  margin: 0;
+  line-height: 0;
+}
+
 .columns-feature a.button:any-link {
   background-color: var(--accent-color);
   border-color: transparent;

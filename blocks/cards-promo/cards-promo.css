@@ -21,6 +21,11 @@
   line-height: 0;
 }
 
+.cards-promo .cards-promo-card-image > p {
+  margin: 0;
+  line-height: 0;
+}
+
 .cards-promo > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;

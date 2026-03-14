@@ -45,6 +45,11 @@
   color: var(--text-color);
 }
 
+.columns-showcase .columns-showcase-img-col p {
+  margin: 0;
+  line-height: 0;
+}
+
 .columns-showcase a.button:any-link {
   background-color: var(--accent-color);
   border-color: transparent;

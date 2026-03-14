@@ -17,6 +17,11 @@
   line-height: 0;
 }
 
+.cards-category .cards-category-card-image > p {
+  margin: 0;
+  line-height: 0;
+}
+
 .cards-category > ul > li img {
   width: 100%;
   aspect-ratio: 16 / 9;

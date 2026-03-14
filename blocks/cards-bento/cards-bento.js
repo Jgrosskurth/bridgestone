@@ -6,6 +6,11 @@ export default function decorate(block) {
     const li = document.createElement('li');
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
+      // Hide empty divs (no meaningful content)
+      if (!div.children.length && !div.textContent.trim()) {
+        div.style.display = 'none';
+        return;
+      }
       const hasPicture = div.querySelector('picture');
       const hasOnlyImg = div.children.length === 1
         && div.querySelector('img')
