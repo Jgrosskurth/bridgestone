@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://raw.githubusercontent.com/Jgrosskurth/bridgestone/main/
+    url: https://content.da.live/Jgrosskurth/bridgestone/
     type: markup
