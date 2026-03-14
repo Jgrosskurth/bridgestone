@@ -129,6 +129,10 @@ header nav[aria-expanded='true'] .nav-tools {
     min-height: 0;
     overflow: visible;
   }
+
+  header nav[aria-expanded='true'] .nav-tools {
+    display: flex;
+  }
 }
 
 header nav p {
