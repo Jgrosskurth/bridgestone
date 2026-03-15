@@ -90,18 +90,22 @@
   border-color: var(--color-red-hover);
 }
 
-/* Additional CTAs = secondary (light gray bg, red outlined) */
-/* stylelint-disable no-descending-specificity -- secondary CTA after primary hover */
+/* Additional CTAs = link style (red text, no border) */
+/* stylelint-disable no-descending-specificity -- link CTA after primary hover */
 .columns-showcase a.button.secondary:any-link,
 .columns-showcase > div > div:not(.columns-showcase-img-col) > p:last-child > a:nth-child(n+2) {
-  background-color: var(--light-color);
-  color: var(--color-black);
+  background-color: transparent;
+  color: var(--color-red-dark);
+  border-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .columns-showcase a.button.secondary:hover,
 .columns-showcase > div > div:not(.columns-showcase-img-col) > p:last-child > a:nth-child(n+2):hover {
-  background-color: var(--color-grey-border);
-  border-color: var(--color-red-hover);
+  color: var(--color-red);
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /* stylelint-enable no-descending-specificity */

@@ -11,6 +11,7 @@
 .cards-article > ul > li {
   background-color: var(--background-color);
   border: 1px solid var(--color-grey-border);
+  border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

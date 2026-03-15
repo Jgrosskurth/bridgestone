@@ -11,7 +11,7 @@
 .cards-bento > ul > li {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 16px;
   min-height: 200px;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@
   color: var(--text-color);
 }
 
-/* CTA links styled as pill buttons */
+/* CTA links styled as secondary pill buttons (outlined) */
 .cards-bento .cards-bento-card-body > p:last-child > a:any-link {
   display: inline-flex;
   align-items: center;
@@ -108,19 +108,13 @@
   cursor: pointer;
   transition: var(--button-transition);
   white-space: nowrap;
-  background-color: var(--accent-color);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 .cards-bento .cards-bento-card-body > p:last-child > a:hover {
-  background-color: var(--color-red-hover);
+  background-color: var(--color-grey-light);
   border-color: var(--color-red-hover);
-}
-
-/* Light bg card: secondary style */
-.cards-bento > ul > li:nth-child(2) .cards-bento-card-body > p:last-child > a:any-link {
-  background-color: var(--accent-color);
-  color: var(--color-white);
 }
 
 /* image-only cards */

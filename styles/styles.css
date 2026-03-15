@@ -491,13 +491,16 @@ main > .section:last-of-type > .default-content-wrapper a[href^="tel:"] {
 }
 
 main > .section:last-of-type > .default-content-wrapper > p:last-child a.button:any-link {
-  background-color: transparent;
+  background-color: var(--accent-color);
   border-color: var(--accent-color);
-  color: var(--color-black);
+  color: var(--color-white);
+  padding: 12px 32px;
+  font-size: var(--body-font-size-m);
 }
 
 main > .section:last-of-type > .default-content-wrapper > p:last-child a.button:hover {
-  background-color: var(--light-color);
+  background-color: var(--color-red-hover);
+  border-color: var(--color-red-hover);
 }
 
 /* ============================================================
