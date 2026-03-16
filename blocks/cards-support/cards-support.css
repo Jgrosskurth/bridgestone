@@ -11,7 +11,7 @@
 .cards-support > ul > li {
   background-color: var(--light-color);
   border-radius: 16px;
-  padding: 32px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
 }

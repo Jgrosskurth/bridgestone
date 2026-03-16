@@ -16,6 +16,7 @@
 
 .columns-showcase > div > .columns-showcase-img-col {
   order: 0;
+  overflow: hidden;
 }
 
 .columns-showcase h4 {
@@ -119,5 +120,9 @@
   .columns-showcase > div > div {
     flex: 1;
     order: unset;
+  }
+
+  .columns-showcase > div > .columns-showcase-img-col {
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   }
 }

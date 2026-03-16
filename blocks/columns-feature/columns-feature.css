@@ -17,6 +17,7 @@
 
 .columns-feature > div > .columns-feature-img-col {
   order: 0;
+  overflow: hidden;
 }
 
 .columns-feature h4 {
@@ -99,5 +100,9 @@
   .columns-feature > div > div {
     flex: 1;
     order: unset;
+  }
+
+  .columns-feature > div > .columns-feature-img-col {
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
   }
 }

@@ -12,7 +12,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   min-height: 400px;
   padding: 40px 24px;
   overflow: hidden;

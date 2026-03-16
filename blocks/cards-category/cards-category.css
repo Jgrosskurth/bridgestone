@@ -11,6 +11,8 @@
 .cards-category > ul > li {
   background-color: var(--background-color);
   overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
 }
 
 .cards-category .cards-category-card-image {
@@ -75,27 +77,30 @@
   white-space: nowrap;
 }
 
-/* First CTA = primary (red filled) */
+/* First CTA = secondary (outlined) */
 .cards-category .cards-category-card-body > p:last-child > a:first-child {
-  background-color: var(--accent-color);
-  color: var(--color-white);
-}
-
-.cards-category .cards-category-card-body > p:last-child > a:first-child:hover {
-  background-color: var(--color-red-hover);
-  border-color: var(--color-red-hover);
-}
-
-/* Additional CTAs = secondary (white bg, red outlined) */
-/* stylelint-disable no-descending-specificity -- secondary CTA after primary hover */
-.cards-category .cards-category-card-body > p:last-child > a:nth-child(n+2) {
   background-color: var(--color-white);
   color: var(--color-black);
 }
 
-.cards-category .cards-category-card-body > p:last-child > a:nth-child(n+2):hover {
+.cards-category .cards-category-card-body > p:last-child > a:first-child:hover {
   background-color: var(--color-grey-light);
   border-color: var(--color-red-hover);
+}
+
+/* Additional CTAs = link style (red text, no border) */
+/* stylelint-disable no-descending-specificity -- link CTA after secondary hover */
+.cards-category .cards-category-card-body > p:last-child > a:nth-child(n+2) {
+  background-color: transparent;
+  color: var(--color-red-dark);
+  border-color: transparent;
+  padding: 8px 0;
+}
+
+.cards-category .cards-category-card-body > p:last-child > a:nth-child(n+2):hover {
+  color: var(--color-red-link-hover);
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /* stylelint-enable no-descending-specificity */
