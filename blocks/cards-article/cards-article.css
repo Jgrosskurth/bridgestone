@@ -67,14 +67,12 @@
   font-size: 12px;
   font-weight: 400;
   text-transform: capitalize;
-  display: inline-block;
   background-color: #f5f5f5;
   border: none;
   padding: 6px 16px;
   border-radius: 16px;
   line-height: 20px;
-  min-width: 83px;
-  max-height: 32px;
+  width: fit-content;
   box-sizing: border-box;
   text-align: center;
 }
