@@ -185,6 +185,7 @@ export default async function decorate(block) {
       <a href="/content/index"><img class="nav-utility-icon" src="/icons/chat.svg" alt="" loading="lazy" width="16" height="16">Customer Support</a>
       <a href="/content/index"><img class="nav-utility-icon" src="/icons/tag.svg" alt="" loading="lazy" width="16" height="16">Special Offers</a>
       <a href="/content/index"><img class="nav-utility-icon" src="/icons/help-circle.svg" alt="" loading="lazy" width="16" height="16">Tire Decision Guide</a>
+      <button type="button" class="nav-utility-lang"><span>US-EN</span><img src="/icons/chevron-down.svg" alt="" loading="lazy" width="12" height="12"></button>
     </div>
   </div>`;
 
