@@ -1,0 +1,15 @@
+{
+  "project": "Bridgestone",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": [
+        "edit"
+      ],
+      "url": "https://main--bridgestone--jgrosskurth.aem.live/tools/sidekick/library.json",
+      "isPalette": true,
+      "paletteRect": "top: 50px; left: 50px; bottom: 50px; right: 50px; width: 800px; height: 600px;"
+    }
+  ]
+}
