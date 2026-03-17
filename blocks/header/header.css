@@ -539,6 +539,7 @@ header nav .nav-tools .icon img {
   display: block;
   width: 22px;
   height: 22px;
+  filter: invert(18%) sepia(96%) saturate(7480%) hue-rotate(358deg) brightness(94%) contrast(112%);
 }
 
 @media (width >= 900px) {
