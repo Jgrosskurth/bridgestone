@@ -108,7 +108,13 @@ body.appear {
 }
 
 header {
-  height: var(--nav-height);
+  height: var(--nav-main-height);
+}
+
+@media (width >= 900px) {
+  header {
+    height: var(--nav-height);
+  }
 }
 
 header .header,
